@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.slidertron-1.1.js"></script>
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Archivo+Narrow:400,700" rel="stylesheet" type="text/css" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<!--[if IE 6]>
+<link href="default_ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+</head>
+<body>
+<div id="header-wrapper">
+	<div id="header" class="container">
+		<div id="logo">
+			<h1><a>十八尖山</a></h1>
+		</div>
+		<div id="menu">
+			<ul>
+				<li class="first active"><a href="index.html" accesskey="1" title="">十八尖山</a></li>
+				<li><a href="detail1.html" accesskey="2" title="">地理位置</a></li>
+				<li><a href="detail2.html" accesskey="3" title="">日治時期</a></li>
+				<li><a href="detail3.html" accesskey="4" title="">竹中人與十八尖山</a></li>
+				<li><a href="about.html" accesskey="5" title="">About Us</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div id="banner">
+	<div id="slider">
+		<div class="viewer">
+			<div class="reel">
+				<div class="slide">
+					<a>現代實景</a> <img src="images/pic01.jpg" alt="" /> </div>
+				<div class="slide">
+					<a>十八尖山制高點</a> <img src="images/pic02.jpg" alt="" /> </div>
+			</div>
+		</div>
+		<div class="indicator">
+			<ul>
+				<li class="active">1</li>
+				<li>2</li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$('#slider').slidertron({
+			viewerSelector: '.viewer',
+			reelSelector: '.viewer .reel',
+			slidesSelector: '.viewer .reel .slide',
+			advanceDelay: 3000,
+			speed: 'slow',
+			navPreviousSelector: '.previous-button',
+			navNextSelector: '.next-button',
+			indicatorSelector: '.indicator ul li',
+			slideLinkSelector: '.link'
+		});
+	</script> 
+</div>
+<div>
+	<p style="margin-top:20px ;color:white; font-size: 24px; line-height:1.5; text-align:center">十八尖山地圖 出處：荒野新竹分會導覽圖內容出自：新竹市志卷一．土地志</p>
+	<p style="margin-top:20px ;color:white; font-size: 24px; line-height:1.5; text-align:center">十八尖山實景 出處：組員拍攝</p>
+</div>
+<div id="wrapper">
+	<div id="page" class="container">
+		<div id="content">
+			<p> 十八尖山可以說是清大的後花園，要前往十八尖山非常的容易，只要透過清大操場旁邊的小路或是沿著西門出去就可以到達。但是清大學生普遍對於十八尖山的認識有所不足。所以我們想要藉由這次機會親自走訪並且深入了解這塊與我們息息相關的地方，並且在充分了解後將我們的心得呈現給大家，讓大家也有機會可以認識十八尖山。</br>
+			</br>
+			十八尖山在竹塹地區曾經扮演下列角色:
+			<p><br></p>
+			<img src="images/index1.jpg" width="1000" height="500"><br>
+			1.在清領時期曾經是漢番界線，也就是所謂的土牛溝。</br>
+			<p><br></p>
+			<img src="images/index2.jpg" width="300" height="500"><br>
+			2.清朝中葉後漢人逐漸將拓墾的步伐推向十八尖山山麓，並且將十八尖山設為義塚，也就是安葬無人認領的枯骨。</br>
+			<p><br></p>
+			<img src="images/index3.jpg" width="500" height="400"><br>
+			3.在日治時期，十八尖山被日本人規劃為森林公園。</br>
+			<p><br></p>
+			<img src="images/index4.jpg" width="500" height="400"><br>
+			4.太平洋戰爭爆發後十八尖山變成軍事基地，國民政府接收後同樣為了防止共軍犯台繼續設為軍事基地。<br>
+			</p>
+		</div>
+	</div>
+</div>
+<div id="footer">
+	<p>2018 歷史思維 Group3 Final</p>
+</div>
+</body>
+</html>
